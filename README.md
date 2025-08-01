@@ -30,28 +30,23 @@ Make sure you have Python installed.
 git clone https://github.com/YOUR_USERNAME/mental-health-journal-app.git
 cd mental-health-journal-app
 ```
-###2. Install required libraries:
+### 2. Install required libraries:
 pip install -r requirements.txt
 
-###3. Run the Streamlit app:
+### 3. Run the Streamlit app:
 streamlit run app.py
 
----
 Mental_Health_Journal_App/
-│
-├── app.py                  # Main app
-├── analysis.py             # Sentiment and keyword analysis
-├── utils.py                # Quote selection logic
-├── data/                   # Saved journal entries
-├── requirements.txt        # Python dependencies
-└── README.md
-
----
+##### ├── app.py
+##### ├── analysis.py
+##### ├── utils.py
+##### ├── data/
+##### ├── requirements.txt
+##### └── README.md
 
 🤍 Why This App?
 Journaling can help reduce stress, clarify thoughts, and promote mental well-being. This app adds a touch of tech-powered positivity to help you reflect and feel better every day.
 
----
 Built With
 Python 🐍
 
@@ -59,7 +54,6 @@ Streamlit 📊
 
 TextBlob ✨
 
----
 Feel free to connect or contribute!
 
 Made with love and a little peace of mind 💖.
